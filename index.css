@@ -1,0 +1,49 @@
+.nav-link{
+    font-size: 25px;
+    font-family: "Nunito",sans-serif;
+}
+#bg-img{
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("img/gsb-bg.jpg");
+    z-index: -1;
+}
+#bg-img::before{
+    content:"";
+    background: rgba(255,255,255, 0.7);
+    background-position: center center;
+    position: fixed;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.img-content{
+    font-family: 'Allison', cursive;
+    font-size: 5rem;
+    z-index:2;
+    color: black; 
+    margin-top: 380px; 
+}
+.About{
+    margin-top: 840px;
+}
+h1{
+    font-family: 'Allison', cursive;
+    font-weight: bolder;
+}
+p{
+    font-family: "Nunito",sans-serif;
+}
+.blessings{
+    margin: 50px;
+}
+.swami{
+    height: 250px;
+    width: 250px;
+    padding: 2px;
+}
