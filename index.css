@@ -2,6 +2,10 @@
     font-size: 25px;
     font-family: "Nunito",sans-serif;
 }
+#logo{
+    height: 60px;
+    width: auto;
+}
 #bg-img{
     position: absolute;
     max-width:100%;
@@ -29,11 +33,20 @@
     color: rgb(82, 5, 5); 
     margin-top: 380px; 
 }
-.About{
-    margin-top: 840px;
+.Notice{
+    margin-top: 740px;
+    padding-top: 90px;
+    word-wrap: break-word;
+}
+.Footer{
+    color: white;
+    background-color: black;
+}
+.Agenda{
+    margin-top: 80px;
 }
 h1{
-    font-family: 'Allison', cursive;
+    font-family: 'Architects Daughter', cursive;
     font-weight: bolder;
 }
 p{
@@ -46,4 +59,14 @@ p{
     height: 250px;
     width: 250px;
     padding: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    .swami{
+       height: 200px;
+       width:200px;
+   } 
+   Address{
+       font-size: 10pt;
+   }
 }
