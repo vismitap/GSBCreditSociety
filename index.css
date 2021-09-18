@@ -28,11 +28,12 @@
     z-index: -1;
 }
 .img-content{
-    font-family: 'Architects Daughter', cursive;
-    font-size: 28pt;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 34pt;
     z-index:2;
     color: rgb(82, 5, 5); 
     margin-top: 380px; 
+    text-shadow: 0 0 3px #fcf6f6, 0 0 5px #ff0055;
 }
 .Notice{
     margin-top: 740px;
