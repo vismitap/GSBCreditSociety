@@ -10,9 +10,10 @@
 #bg-img{
     position: absolute;
     max-width:100%;
-    height: 600px;
+    height: 580px;
     background-size: cover;
-    background-image: url("img/guruganesh.jpg");
+    transform: translateY(60px);
+    background-image: url("img/SukriteendraSocietyBoard.jpg");
     z-index: -1;
 }
 #bg-img::before{
@@ -28,8 +29,9 @@
     z-index: -1;
 }
 .img-content{
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 30pt;
+    visibility: hidden;
+    font-family: 'Anton', sans-serif;
+    font-size: 26pt;
     z-index:2;
     color: rgb(82, 5, 5); 
     margin-top: 380px; 
@@ -46,6 +48,9 @@
 }
 .Agenda{
     margin-top: 80px;
+}
+.adv{
+    width: 500px;
 }
 h1{
     font-family: 'Architects Daughter', cursive;
@@ -76,8 +81,23 @@ p{
        height: 150px;
        width:150px;
    } 
+   #bg-img{
+       height: 300px;
+       transform: translateY(0px);
+       background: linear-gradient(orange, brown);
+   }
    Address{
        font-size: 10pt;
+   }
+   .img-content{
+       margin-top: 120px;
+       visibility: visible;
+   }
+   .adv{
+       width: 100%;
+   }
+   .Notice{
+       margin-top: 240px;
    }
 }
 
